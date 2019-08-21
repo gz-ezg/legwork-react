@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -71,8 +70,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 =======
 # react-daka
 打卡外勤
->>>>>>> 4c907d2636504eb33aa6a3cd78d14ebfccc9f1fa
-=======
-# legwork-react
-用react+ant-mobile重写新版外勤项目
->>>>>>> ea72b5778105978d3800cdf84e6223e9156de41f
+
