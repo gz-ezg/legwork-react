@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
-import cart from './cart'
+import legwork from './legwork'
 
 export default combineReducers({
-  cart
+  legwork
 })

@@ -1,0 +1,39 @@
+.active {
+  color: red;
+}
+
+
+.radio {
+  box-sizing: border-box;
+  /* padding: 2.5px; */
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.drawer {
+  position: relative;
+  background-color: #fff;
+  overflow: auto;
+}
+
+
+.hide {
+  bottom: 0px;
+  left: 0;
+  color: #fff;
+  width: 100vw;
+  height: 0;
+  position: fixed !important;
+}
+
+.show {
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  width: 100vw;
+  z-index: 1;
+  position: fixed !important;
+  background: rgba(214, 0, 0, 0.89);
+  transition: all 0.5s;
+}

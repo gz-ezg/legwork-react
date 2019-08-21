@@ -1,7 +1,9 @@
+const { resolve } = require('path')
 const {
   override,
   fixBabelImports,
-  addDecoratorsLegacy
+  addDecoratorsLegacy,
+  addWebpackAlias
 } = require('customize-cra')
 
 module.exports = override(
@@ -9,5 +11,11 @@ module.exports = override(
     libraryName: 'antd-mobile',
     style: 'css'
   }),
-  addDecoratorsLegacy()
+  addDecoratorsLegacy(),
+
+  addWebpackAlias({
+    '@U': resolve(__dirname, 'src/utils'),
+    '@C': resolve(__dirname, 'src/components'),
+    '@S': resolve(__dirname, 'src/services')
+  })
 )

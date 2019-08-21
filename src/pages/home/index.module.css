@@ -1,0 +1,12 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+}
+
+.active {
+  background: #ff08088e;
+}
+.navbar {
+  background: rgba(214, 0, 0, 0.89);
+}

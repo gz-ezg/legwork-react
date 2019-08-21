@@ -1,15 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
-import './index.scss'
+import './assets/css/common.css'
 
 import * as serviceWorker from './serviceWorker'
-import { CartList } from './components'
+import App from './app'
 import store from './store'
 
 ReactDOM.render(
   <Provider store={store}>
-    <CartList />
+    <App />
   </Provider>,
   document.getElementById('root')
 )
